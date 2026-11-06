@@ -2,7 +2,11 @@
 html, body {
     height: 100%;
     margin: 0;
+    min-height: 100%;
     background-image: linear-gradient(to bottom, navy, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     }
 
 h1 {
